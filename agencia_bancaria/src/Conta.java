@@ -1,10 +1,10 @@
 public class Conta {
     private double saldo;
+    @SuppressWarnings("unused")
     private String titular;
 
     public Conta(String nome) {
         this.titular = nome;
-        System.out.print(this.titular);
     }
 
     public String deposito(double valor) {
